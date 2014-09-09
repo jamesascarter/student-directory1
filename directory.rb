@@ -8,3 +8,7 @@ puts "Will Homers"
 puts "Jessica Rabbit"
 puts "Jane Fonda"
 puts "Jeremiah Cane"
+
+print "Overall, we have "
+print 9
+puts " great students"
