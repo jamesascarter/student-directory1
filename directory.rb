@@ -1,16 +1,24 @@
 
 
-#first we print the list of students
-student_count = 9
+
+#put all students into an array
+students = [
+
+"James Carter",
+"Bill Bailey",
+"Jim Franco",
+"Will Homers",
+"Jessica Rabbit",
+"Jane Fonda",
+"Jeremiah Cane"
+]
+
 puts "The students of my cohort at Makers Academy"
 puts "----------------"
-puts "James Carter"
-puts "Bill Bailey"
-puts "Jim Franco"
-puts "Will Homers"
-puts "Jessica Rabbit"
-puts "Jane Fonda"
-puts "Jeremiah Cane"
+students.each do |student|
+	puts student
+end
+
 #finally, we print the total
 #it's important that print() doesn't add new line characters
-puts "Overall, we have #{student_count} great students"
+puts "Overall, we have #{students.length} great students"
